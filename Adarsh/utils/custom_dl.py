@@ -122,9 +122,7 @@ class ByteStreamer:
         """
         Returns the file location for the media file.
         """
-        file_type = file_id.file_type
-
-      
+        file_type = file_id.file_type     
             location = raw.types.InputPeerPhotoFileLocation(
                 peer=peer,
                 volume_id=file_id.volume_id,
